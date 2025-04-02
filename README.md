@@ -8,5 +8,6 @@ Steps to run the project:
 2. Run `npm install` in the terminal
 3. Run `npm run dev` in the terminal
 
-
+I was actully following [Hunor Márton's article](https://www.freecodecamp.org/news/how-to-code-a-crossy-road-game-clone-with-react-three-fiber/?ref=dailydev) for this project
+feel free to play with it 👍
 
