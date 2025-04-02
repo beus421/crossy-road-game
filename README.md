@@ -1,6 +1,6 @@
 Hey this is a test run for react three fiber.
 
-![project screenshot](./public/crossy-road-game.png)
+![project screenshot](https://github.com/beus421/crossy-road-game/blob/main/public/crossy-road-game.PNG)
 
 Steps to run the project:
 1. Clone the repository
