@@ -1,5 +1,5 @@
 import { useFrame } from "@react-three/fiber";
-import { tileSize, minTileIndex, maxTileIndex } from "./constants";
+import { tileSize, minTileIndex, maxTileIndex } from "../constants";
 
 export default function useVehicleAnimation(ref, direction, speed) {
   useFrame((state, delta) => {

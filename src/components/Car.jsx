@@ -1,7 +1,7 @@
-import { tileSize } from "./constants";
+import { tileSize } from "../constants";
 import { useRef } from "react";
-import useVehicleAnimation from "./useVehicleAnimation";
-import useHitDetection from "./hooks/useHitDetection";
+import useVehicleAnimation from "../hooks/useVehicleAnimation";
+import useHitDetection from "../hooks/useHitDetection";
 
 export function Car({
   rowIndex,

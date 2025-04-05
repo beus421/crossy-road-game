@@ -1,7 +1,8 @@
 import { useThree } from "@react-three/fiber";
-import usePlayerAnimation from "./hooks/usePlayerAnimation";
+import usePlayerAnimation from "../hooks/usePlayerAnimation";
 import { useRef, useEffect } from "react";
-import { setRef } from "./stores/player";
+import { setRef } from "../stores/player";
+
 
 
 export function Player() {

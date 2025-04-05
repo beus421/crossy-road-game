@@ -1,4 +1,4 @@
-import { tilesPerRow, tileSize } from "./constants";
+import { tilesPerRow, tileSize } from "../constants";
 
 export function Grass({ rowIndex, children }) {
   return (
