@@ -1,25 +1,10 @@
-
-import { endsUpInValidPosition } from "../endsupInvalidPosition";
-
 export const state = {
     currentRow: 0,
     currentTile: 0,
     movesQueue: [],
-    ref: null,
   };
-
-  export function setRef(ref) {
-    state.ref = ref;
-  }
   
   export function queueMove(direction) {
-    const isValidMove = endsUpInValidPosition(
-      { rowIndex: state.currentRow, tileIndex: state.currentTile },
-      [...state.movesQueue, direction]
-    );
-  
-    if (!isValidMove) return; // Ignore move
-  
     state.movesQueue.push(direction);
   }
   

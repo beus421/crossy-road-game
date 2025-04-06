@@ -1,8 +1,8 @@
 import { calculateFinalPosition } from "./calculateFinalPosition";
-import { minTileIndex, maxTileIndex } from "./constants";
-import { rows } from "./metadata";
+import { minTileIndex, maxTileIndex } from "../constants";
+import { rows } from "../metadata";
 
-export function endsUpInValidPosition(currentPosition, moves) {
+export default function endsUpInValidPosition(currentPosition, moves) {
   // Calculate where the player would end up after the move
   const finalPosition = calculateFinalPosition(
     currentPosition,

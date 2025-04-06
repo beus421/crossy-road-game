@@ -1,4 +1,4 @@
-import { rows } from "./metadata";
+import { rows } from "../metadata";
 import { Grass } from "./Grass";
 import { Row } from "./Row";
 
